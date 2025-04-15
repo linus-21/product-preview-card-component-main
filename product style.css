@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+button{
+    padding: 15px 70px;
+    border-radius: 5px;
+    color: white;
+    background: hsl(120, 100%, 25%);
+    border: none;
+    transition: 500ms ease;
+    cursor: pointer;
+    
+}
+button:hover{
+    background:hsl(120, 100%, 25%,.6) ;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    justify-content: center;
+}
+img{
+    width: 250px;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.block{
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 510px;
+  
+}
+.perfume{
+    display: block;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 30px;
+
+}
+h3{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 100;
+}
+h1{
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900%;
+    font-size: x-large;
+}
+p{
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+h2{
+    padding-bottom: 20px;
+    font-size: xx-large;  
+}
+.price{
+    display: flex;
+    text-align: center;
+}
+
+.discount{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+} 
+.cart{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}  
+.space{
+    padding-top: 10px; 
+    padding-bottom: 9px;
+}
